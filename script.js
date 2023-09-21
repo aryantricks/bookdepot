@@ -30,7 +30,7 @@ function toggleTheme() {
 
         document.body.style.backgroundColor = '#333';
 
-        document.body.style.backgroundColor = 'black';
+        document.body.style.backgroundColor = '#303030';
         let ptemp = document.querySelectorAll(".txt p");
         ptemp.forEach(function (navLink) {
             navLink.style.color = 'white';
